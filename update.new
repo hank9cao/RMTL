@@ -1,0 +1,4 @@
+Update after Publish on Cran
+
+16.04.2019
+add stopImplicitCluster() to parallel computation
