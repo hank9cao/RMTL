@@ -403,6 +403,7 @@ cvm <- foreach::foreach(i = 1:nfolds, .combine="cbind") %dopar%{
     }
     return(cvVec)
 }
+doParallel::stopImplicitCluster()
 cvm <- rowMeans(cvm)
 }
 
