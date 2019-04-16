@@ -25,7 +25,7 @@ install.packages("RMTL")
 ```R
 install.packages("devtools")
 library("devtools")
-install_github("transbioZI/RMTL")
+install_github("hank9cao/RMTL")
 ```
 
 3) Install from the source code 
